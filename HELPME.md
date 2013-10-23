@@ -4,3 +4,6 @@ All members of Northeastern Sailbot are allowed to add to this file. Put any inf
 
 Get started my going to this link and reading the Bootcamp section.
 link: https://help.github.com
+
+Tutorial for beginners:
+http://try.github.io/levels/1/challenges/1
