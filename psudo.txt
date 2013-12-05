@@ -1,0 +1,31 @@
+angle = angleBetween(windVector, waypointVector)
+
+if (160 < angle < 200) {tack()}
+
+else if (0 < angle < 160) {sailAngleDegrees = -2/9*angle + 90 OR -40/PI*angleRad + PI/2} port side
+
+else if (200 < angle < 360) {sailAngleDegrees = -2/9*(angle-200) + 90 OR -40/PI*(angle-200).toRad + PI/2} starboard side
+
+else {something is broken}
+
+/*
+resources:
+http://skippercourse.com/wp-content/uploads/2012/04/points-of-sail.gif
+
+how i got the equation:
+angle(x)  sailAngle(y)
+90        0
+0         20
+
+y=mx+b
+m=rise/run=y/x=-20/60=-2/9
+y=-2/9*x+b
+if x=0 then y=90
+y=-2/9*0+b y=b 90=b
+y=-2/9*x+90
+*/
+
+//more stuff:
+
+-after initial anlge calc only assign new value if angle change > 5 degrees
+-use rudder for fine tuning in this case
