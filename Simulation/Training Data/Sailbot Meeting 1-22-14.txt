@@ -1,0 +1,21 @@
+Sailbot
+1/22/14 Meeting
+Programming Team
+
+Sails
+-The boat can't go directly into the wind (Irons)
+-The boat shouldn't go directly away from the wind either. This is
+because there's a high risk of capsizing when the sails are all the way out.
+-To stay still, point the bow upwind and let the sails all the way out.
+
+-Turning upwind is called "heading up." When doing so, the main sail is adjusted first,
+followed by the jib.
+-Turning downwind is called "bearing off." When doing so, the jib is adjusted first,
+followed by the main sail.
+
+Rudder
+-The rudder should be used sparingly when sailing downwind or jibing.
+-One the other hand, a hard turn is necessary to carry the boat's momentum through
+a tack.
+-When sailing near irons, the bow will be pulled slightly towards the wind. The rudder
+must compensate for this.

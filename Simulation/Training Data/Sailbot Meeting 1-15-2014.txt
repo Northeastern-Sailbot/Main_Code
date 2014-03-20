@@ -1,0 +1,45 @@
+Sailbot
+1/15/14 Meetings
+Programming Team
+
+Inputs
+------
+Wind direction
+Current Location
+Compass location
+Waypoint location
+Controller
+Gryo Tilt (from a gyroscope)
+
+Outputs
+-------
+Rudder position
+Sail position
+
+----------------------------
+
+Main Functions
+--------------
+
+1. getOutOfIronsMode();
+2. seekWaypointMode();
+3. stayTheFuckStillMode();
+4. dropEverythingMode();
+5. remoteControlMode();
+6. circleMode();		//Circle the box for a different competition
+
+--------------------------------
+
+Environment
+-----------
+-Wind Speed
+-Wind direction	*
+-Other boats
+
+------------------------------
+
+Job				|	Person		|	Weight
+-----------------------------------------------------------------------------
+Virtual Sailing Environment	|	Mike		|	Hard
+Research Sensors		|	Corey		|	Easy
+Basic Modes			|	Brett/Corey	|	Medium
